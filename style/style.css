@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Ubuntu:wght@400;500;700&display=swap');
+body{
+    background-color: #343434;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    max-width: 400px;
+    background-color: rgba(153, 153, 153, 1);
+    margin: 10vh auto 0 auto;
+    box-shadow: 0px 0px 43px 17px rgba(153, 153, 153, 1);
+    border-top: 0.5px solid #343434;
+    border-left: 0.5px solid #343434;
+    border-right: 0.5px solid #343434;
+    text-align:center;
+}
+.container span{
+    font-size: 23px;
+    font-weight: 800;
+    color: #383838;
+}
+#display{
+    border: 0.5px solid #343434;
+    text-align: right;
+    height: 70px;
+    line-height: 70px;
+    padding: 16px 8px;
+    font-size: 25px;
+}
+.buttons{
+    display: grid;
+    border-bottom: 0.25px solid #343434;
+    border-left: 0.25px solid #343434;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.buttons > div{
+    border-top: 0.25px solid #343434;
+    border-right: 0.25px solid #343434;
+}
+.button{
+    
+    line-height: 100px;
+    text-align: center;
+    font-size: 25px;
+    cursor: pointer;
+}
+#equal{
+    background-color:#165bf0;
+    color: white;
+}
+#clear{
+    background-color: #d94302;
+    color: white;
+}
+.button:hover{
+    background-color: #333333 ;
+    color:white;
+    transition: 0.3s ease-in-out;
+}
